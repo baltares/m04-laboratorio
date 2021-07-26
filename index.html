@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 4 - Laboratorio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-center">
+    <header>
+        <h3>Calculadora</h3>
+    </header>
+    <main>
+        <form class="container">
+            <div class="container-2">
+                <label class="col-3" for="input-number1">Número 1</label>
+                <input class="col-7 input-field" type="number" name="input-number1" id="input-number1">
+            </div>
+            <div class="container-2">
+                <label class="col-3" for="input-number2">Número 2</label>
+                <input class="col-7 input-field" type="number" name="input-number2" id="input-number2">
+            </div>
+            <div class="container-2">
+                <button type="button" class="button-class" id="button-add">+</button>
+                <button type="button" class="button-class" id="button-sub">-</button>
+                <button type="button" class="button-class" id="button-mul">*</button>
+                <button type="button" class="button-class" id="button-div">/</button>
+                <button type="button" class="button-class" id="button-del">Borrar</button>
+            </div>
+            <hr>
+            <div class="container-2">
+                <div class="col-3">Resultado:</div>
+                <div class="col-7 result-field" id="result"></div>
+            </div>
+        </form>
+    </main>
+    <script src="app.js"></script>
+</div>
+</body>
+
+</html>
